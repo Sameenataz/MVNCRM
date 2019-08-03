@@ -34,6 +34,7 @@ public class LoginPage extends TestBase{
 	}
 	public HomePage login(String email1,String password1) {
 		Login.click();
+		
 		username.sendKeys(email1);
 		password.sendKeys(password1);
 		login1.click();
